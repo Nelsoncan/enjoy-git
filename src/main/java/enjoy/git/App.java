@@ -15,7 +15,7 @@ public class App {
 
     @RequestMapping("/")
     String home(){
-        return "Hello Git! -V0.4 -master update";
+        return "Hello Git! -V0.5 -master update --merge合并分支";
     }
 
     public static void main( String[] args )
