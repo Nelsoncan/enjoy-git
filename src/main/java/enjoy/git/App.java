@@ -16,6 +16,7 @@ public class App {
     @RequestMapping("/")
     String home(){
         System.out.println("Hello Git! + giuhub_push!");
+        System.out.println("测试从GitHub上pull代码至本地");
         return "Hello Git! -V0.6 -master update --merge合并分支";
     }
 
