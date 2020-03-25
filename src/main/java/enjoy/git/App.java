@@ -15,7 +15,7 @@ public class App {
 
     @RequestMapping("/")
     String home(){
-        return "Hello Git!";
+        return "Hello Git! -V0.2 --branch nelson";
     }
 
     public static void main( String[] args )
