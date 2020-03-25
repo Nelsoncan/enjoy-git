@@ -15,6 +15,7 @@ public class App {
 
     @RequestMapping("/")
     String home(){
+        System.out.println("Hello Git! + giuhub_push!");
         return "Hello Git! -V0.6 -master update --merge合并分支";
     }
 
