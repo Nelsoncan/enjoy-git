@@ -1,25 +1,14 @@
 package enjoy.git;
 
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * Hello world!
  *
  */
-@RestController
-@EnableAutoConfiguration
+@SpringBootApplication
 public class App {
-
-    @RequestMapping("/")
-    String home(){
-        System.out.println("Hello Git! + giuhub_push!");
-        System.out.println("测试从GitHub上pull代码至本地");
-        System.out.println("测试从本地代码push至GitHub上");
-        return "Hello Git! -V0.6 -master update --merge合并分支";
-    }
 
     public static void main( String[] args )
     {
