@@ -17,6 +17,7 @@ public class UserController {
 	
 	@RequestMapping("/queryUser")
 	public String queryUser(){
+		System.out.println("测试修改冲突V-1.1");
 		return "This is branch dev-1.0";
 	}
 	
