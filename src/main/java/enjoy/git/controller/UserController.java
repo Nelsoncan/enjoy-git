@@ -24,6 +24,7 @@ public class UserController {
 		System.out.println("dev-1.0分支新增功能");
 		System.out.println("dev-1.1分支新增功能");
 		System.out.println("dev-1.0分支新增功能222");
+		System.out.println("dev-1.1分支新增功能222");
 		return "This is branch dev-1.0";
 	}
 	
