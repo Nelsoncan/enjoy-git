@@ -17,7 +17,7 @@ public class UserController {
 	
 	@RequestMapping("/queryUser")
 	public String queryUser(){
-		return "This is testing, Hello Jenkins to Git!";
+		return "This is branch dev-1.0";
 	}
 	
 }
